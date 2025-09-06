@@ -1,0 +1,102 @@
+/* Definindo a paleta de cores */
+:root {
+    --laranja-claro: #FF862A;  /* Cor vibrante do Restart */
+    --preto: #1A1A1A; /* Fundo escuro */
+    --branco: #FFFFFF; /* Cor de texto */
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #FFF;
+    color: #000;
+}
+
+/* Estilo do botao de acessibilidade */
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+/* Imagens e logos da Restart */
+.inicio-fundo {
+    background-image: url('img/restart-banner.jpg'); /* Banner temático Restart */
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+/* Ajustes de fundo para as seções */
+#bandainfo {
+    background-color: #F1F1F1;
+    color: #000;
+}
+
+#galeria {
+    background-color: #FAF4F4;
+    background-image: url('img/restart-background.jpg');
+    background-size: cover;
+}
+
+.fundo-galeria {
+    background: url('img/restart-gallery-pattern.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+/* Contato */
+#contato {
+    background-image: url('img/restart-contact.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões */
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    width: 14em;
+    height: 3em;
+}
